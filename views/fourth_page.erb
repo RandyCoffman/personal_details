@@ -1,0 +1,15 @@
+<%=f_name%>
+<h1>What are your favorite numbers?</h1>
+<form method="post" action="numbers">
+	<input type="number" name="fav_num_one" placeholder=" first favorite #">
+	<br><br>
+	<input type="number" name="fav_num_two" placeholder=" second favorite #">
+	<br><br>
+	<input type="number" name="fav_num_three" placeholder="third favorite #">
+	<br><br>
+	<input type="hidden" name="f_name" value="<%=f_name%>">
+	<input type="hidden" name="food" value="<%=food%>">
+	<input type="hidden" name="drink" value="<%=drink%>">
+	<input type="hidden" name="age" value="<%=age%>">
+	<input type="submit" value="submit your numbers">
+</form>
